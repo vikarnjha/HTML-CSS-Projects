@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.navSection {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+.navUl {
+  display: flex;
+  list-style-type: none;
+  margin-right: 200px;
+  column-gap: 25px;
+}
+.line {
+  font-size: 40px;
+}
+.logo {
+  width: 100px;
+}
+.buttonBuy {
+  padding: 5px 20px;
+  background: #ba0cc5;
+  border-radius: 6px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.buttonRequest {
+  padding: 5px 20px;
+  background: #ba0cc5;
+  border-radius: 11px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.content {
+  background-image: url(/ico/background.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 91.5vh;
+  text-align: center;
+  filter: brightness(80%);
+}
+.h1 {
+  color: white;
+  max-width: 846px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 172px;
+}
+.p {
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 45px;
+}
